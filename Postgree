@@ -1,0 +1,16 @@
+CREATE DATABASE exemplo_db; 
+ 
+ 
+CREATE TABLE clientes ( 
+ id SERIAL PRIMARY KEY, 
+ nome VARCHAR(100), 
+ email VARCHAR(100), 
+ idade INT 
+
+); 
+
+
+INSERT INTO clientes (nome, email, idade) VALUES 
+('Alice Santos', 'alice@email.com', 30), 
+('Bruno Lima', 'bruno@email.com', 25), 
+('Carla Souza', 'carla@email.com', 35);
